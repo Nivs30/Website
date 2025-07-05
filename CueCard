@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Company Status Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      max-width: 600px;
+      margin: 60px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      background: #fff;
+    }
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+    }
+    .status {
+      font-size: 1.2em;
+      padding: 10px;
+      background: #fff3cd;
+      color: #856404;
+      border-left: 6px solid #ffeeba;
+      margin-bottom: 20px;
+    }
+    .update-section {
+      border-top: 1px solid #ddd;
+      padding-top: 15px;
+    }
+    .update {
+      margin-bottom: 10px;
+    }
+    .timestamp {
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <h1>CueCard Labs Status Page</h1>
+
+  <div class="status">
+    <strong>System Status:</strong> Partially Degraded
+  </div>
+
+  <p>We're currently performing server upgrades. Some users may experience intermittent issues. Our team is working to resolve this as quickly as possible. Thank you for your patience!</p>
+
+  <div class="update-section">
+    <h2>Live Updates</h2>
+    <div class="update">
+      <p><strong>[July 5, 2025, 6:00 PM]</strong> We identified a temporary outage during the server upgrade. All core services are operational but may experience brief delays while we finalize deployment.</p>
+    </div>
+  </div>
+</body>
+</html>
